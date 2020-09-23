@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "underscore": "^1.11.0"
+  }
+}
