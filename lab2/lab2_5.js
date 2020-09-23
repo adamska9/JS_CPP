@@ -1,5 +1,6 @@
 /*178 Клеточное поле размером m x n является результатом игры в крестики-
 нолики. Проверить, не закончена ли игра выигрышем крестиков.*/
+//!!! this script uses the underscore module http://underscorejs.org
 
 import pkg from 'underscore';
 const { isEqual } = pkg;
