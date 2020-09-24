@@ -8,8 +8,9 @@ let Coleague = {
     phone : '337695',
     salary : '400000',
     output : function () {
-        console.log(`Employee ${this.name}\n` +
-            `Facility ${this.facility}\nPhone - ${this.phone}\nSalary - ${this.salary}`);
+      const {name, facility, phone, salary} = this;
+      console.log(`Employee ${name}\n` +
+          `Facility ${facility}\nPhone - ${phone}\nSalary - ${salary}`);
     }
   }
 let newName = `Jason Mongoose`;
