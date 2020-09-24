@@ -11,9 +11,8 @@ class Tour{
       this.days = days;
       this.fee = fee;
     }
-    price() {
-      return `Total price: ${this.people*this.days*this.fee}`;
-    }
+    price = () => `Total price: ${this.people*this.days*this.fee}`;
+    
 }
 const turkeyTour = new Tour('Turkey', 3, 3, 69);
 
