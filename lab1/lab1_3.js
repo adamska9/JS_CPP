@@ -24,4 +24,4 @@ const foo_check = str => {
     if (stack.length !== 0) return false;
     return true;
 }
-console.log(foo_check(str));
+console.log(`String: ${str}\n${foo_check(str)}`);
