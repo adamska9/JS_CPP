@@ -6,4 +6,4 @@ const str = 'asdfgh dfgh sabjdhajshdas d3627 419h ch28c1 4x21h983e4 12';
 const numberCheck = /\d+/g;
 
 let result = str.match(numberCheck);
-console.log(result);
+console.log(`String: ${str}\nNumbers: ${result}`);
