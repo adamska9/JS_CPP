@@ -6,4 +6,4 @@ let str = 'Die Hochschule für Technik und Wirtschaft Berlin (HTW Berlin) ist mi
 + 'Es existieren etwa 70 Studienangebote in den Bereichen Technik, Informatik, Wirtschaft, Kultur und Gestaltung.';
 
 str = str.replace(/\w{15,}/gm, 'АБСТРАГИРОВАНИЕ');
-console.log(str);
+console.log(`text:\n${str}\nchanged text:\n${str_fin}`);
