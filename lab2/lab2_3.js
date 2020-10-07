@@ -9,7 +9,7 @@ for (let i = 0; i < 3; i++){
     arr.push(Array.from({length:3}, () => Math.floor(Math.random() * 20)));
     arr_prop.push((arr[i].filter(x => x % 2 === 0)).reduce((a, b) => a + b, 0));
 }
-
+console.log(`Starting array: ${arr}\nSorted: `);
 //combining the arrays:
 var list = [];
 for (let i = 0, len = arr.length; i < len; i++) 
